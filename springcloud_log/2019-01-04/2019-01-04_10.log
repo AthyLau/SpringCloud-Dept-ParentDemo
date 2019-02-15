@@ -1,0 +1,683 @@
+2019-01-04_10 10:10:28.866 INFO  [Thread-20] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67a20f67: startup date [Thu Jan 03 21:27:09 CST 2019]; root of context hierarchy
+2019-01-04_10 10:10:29.010 INFO  [Thread-20] org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+2019-01-04_10 10:10:29.044 INFO  [Thread-20] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-01-04_10 10:11:07.762 INFO  [main] lcxy.springcloud.micorserviceapi.MicorServiceApiApplication - Starting MicorServiceApiApplication on localhost with PID 54314 (/Users/lcxy_demo/IdeaProjects/micor-service-parent/micor-service-api/target/classes started by lcxy_demo in /Users/lcxy_demo/IdeaProjects/micor-service-parent)
+2019-01-04_10 10:11:07.782 INFO  [main] lcxy.springcloud.micorserviceapi.MicorServiceApiApplication - No active profile set, falling back to default profiles: default
+2019-01-04_10 10:11:07.955 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67a20f67: startup date [Fri Jan 04 10:11:07 CST 2019]; root of context hierarchy
+2019-01-04_10 10:11:08.356 INFO  [background-preinit] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2019-01-04_10 10:11:11.241 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [lcxy.springcloud.micorserviceapi.config.ValidatorConfig$$EnhancerBySpringCGLIB$$ce1dddd6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-04_10 10:11:11.350 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validator' of type [org.hibernate.validator.internal.engine.ValidatorImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-04_10 10:11:11.477 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e17f63ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-04_10 10:11:12.024 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 55356 (http)
+2019-01-04_10 10:11:12.038 INFO  [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-04_10 10:11:12.040 INFO  [main] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.20
+2019-01-04_10 10:11:12.167 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-04_10 10:11:12.167 INFO  [localhost-startStop-1] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4212 ms
+2019-01-04_10 10:11:12.414 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-01-04_10 10:11:12.415 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-01-04_10 10:11:12.419 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-04_10 10:11:12.420 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-04_10 10:11:12.420 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-04_10 10:11:12.421 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-04_10 10:11:12.421 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2019-01-04_10 10:11:12.475 INFO  [main] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-04_10 10:11:13.099 INFO  [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-04_10 10:11:13.513 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-01-04_10 10:11:13.529 INFO  [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-04_10 10:11:13.629 INFO  [main] org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-01-04_10 10:11:13.631 INFO  [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-01-04_10 10:11:13.633 INFO  [main] org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-01-04_10 10:11:13.645 INFO  [main] org.hibernate.spatial.integration.SpatialService - HHH80000001: hibernate-spatial integration enabled : true
+2019-01-04_10 10:11:13.711 INFO  [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-01-04_10 10:11:13.904 INFO  [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-04_10 10:11:14.312 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-04_10 10:11:15.087 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/dept/find/all],methods=[POST]}" onto public lcxy.springcloud.micorserviceentity.commonbox.Result lcxy.springcloud.micorserviceapi.controller.DeptController.findAll()
+2019-01-04_10 10:11:15.089 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/dept/del/by_id],methods=[POST]}" onto public lcxy.springcloud.micorserviceentity.commonbox.Result lcxy.springcloud.micorserviceapi.controller.DeptController.delById(lcxy.springcloud.micorserviceentity.domain.dto.IntDTO)
+2019-01-04_10 10:11:15.089 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/dept/add],methods=[POST]}" onto public lcxy.springcloud.micorserviceentity.commonbox.Result lcxy.springcloud.micorserviceapi.controller.DeptController.addDept(lcxy.springcloud.micorserviceentity.domain.po.DeptPO)
+2019-01-04_10 10:11:15.094 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-01-04_10 10:11:15.095 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-01-04_10 10:11:15.096 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-01-04_10 10:11:15.099 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-04_10 10:11:15.100 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-04_10 10:11:15.319 INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-01-04_10 10:11:15.631 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67a20f67: startup date [Fri Jan 04 10:11:07 CST 2019]; root of context hierarchy
+2019-01-04_10 10:11:15.708 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-04_10 10:11:15.709 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-04_10 10:11:15.755 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-04_10 10:11:16.121 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-01-04_10 10:11:16.124 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2019-01-04_10 10:11:16.125 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-01-04_10 10:11:16.131 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2019-01-04_10 10:11:16.132 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2019-01-04_10 10:11:16.136 INFO  [main] org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2019-01-04_10 10:11:16.136 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-04_10 10:11:16.158 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-04_10 10:11:16.208 INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-04_10 10:11:16.401 INFO  [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-55356"]
+2019-01-04_10 10:11:16.414 INFO  [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-55356"]
+2019-01-04_10 10:11:16.458 INFO  [main] org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-04_10 10:11:16.487 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 55356 (http)
+2019-01-04_10 10:11:16.498 INFO  [main] lcxy.springcloud.micorserviceapi.MicorServiceApiApplication - Started MicorServiceApiApplication in 10.154 seconds (JVM running for 13.332)
+2019-01-04_10 10:12:35.818 INFO  [http-nio-55356-exec-2] org.apache.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:422)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:683)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-04_10 10:12:35.818 INFO  [http-nio-55356-exec-1] org.apache.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:422)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:683)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-04_10 10:12:35.898 INFO  [http-nio-55356-exec-3] org.apache.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:422)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:683)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-04_10 10:17:18.194 INFO  [http-nio-55356-exec-5] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-01-04_10 10:17:18.197 INFO  [http-nio-55356-exec-5] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-04_10 10:17:18.262 INFO  [http-nio-55356-exec-5] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 65 ms
+2019-01-04_10 10:17:27.411 INFO  [Thread-25] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67a20f67: startup date [Fri Jan 04 10:11:07 CST 2019]; root of context hierarchy
+2019-01-04_10 10:17:27.418 INFO  [Thread-25] org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+2019-01-04_10 10:17:27.421 INFO  [Thread-25] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-01-04_10 10:17:27.422 INFO  [Thread-25] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-01-04_10 10:17:27.426 INFO  [Thread-25] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-04_10 10:17:27.446 INFO  [Thread-25] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-01-04_10 10:17:32.315 INFO  [main] lcxy.springcloud.micorserviceapi.MicorServiceApiApplication - Starting MicorServiceApiApplication on localhost with PID 54495 (/Users/lcxy_demo/IdeaProjects/micor-service-parent/micor-service-api/target/classes started by lcxy_demo in /Users/lcxy_demo/IdeaProjects/micor-service-parent)
+2019-01-04_10 10:17:32.318 INFO  [main] lcxy.springcloud.micorserviceapi.MicorServiceApiApplication - No active profile set, falling back to default profiles: default
+2019-01-04_10 10:17:32.549 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67a20f67: startup date [Fri Jan 04 10:17:32 CST 2019]; root of context hierarchy
+2019-01-04_10 10:17:32.699 INFO  [background-preinit] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2019-01-04_10 10:17:34.968 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [lcxy.springcloud.micorserviceapi.config.ValidatorConfig$$EnhancerBySpringCGLIB$$257943e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-04_10 10:17:35.039 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validator' of type [org.hibernate.validator.internal.engine.ValidatorImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-04_10 10:17:35.256 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$15b91a16] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-04_10 10:17:36.159 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 55356 (http)
+2019-01-04_10 10:17:36.171 INFO  [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-04_10 10:17:36.172 INFO  [main] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.20
+2019-01-04_10 10:17:36.316 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-04_10 10:17:36.317 INFO  [localhost-startStop-1] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3768 ms
+2019-01-04_10 10:17:36.783 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-01-04_10 10:17:36.785 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-01-04_10 10:17:36.791 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-04_10 10:17:36.792 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-04_10 10:17:36.792 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-04_10 10:17:36.792 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-04_10 10:17:36.792 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2019-01-04_10 10:17:36.825 INFO  [main] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-04_10 10:17:37.434 INFO  [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-04_10 10:17:37.761 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-01-04_10 10:17:37.773 INFO  [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-04_10 10:17:37.828 INFO  [main] org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-01-04_10 10:17:37.830 INFO  [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-01-04_10 10:17:37.831 INFO  [main] org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-01-04_10 10:17:37.839 INFO  [main] org.hibernate.spatial.integration.SpatialService - HHH80000001: hibernate-spatial integration enabled : true
+2019-01-04_10 10:17:37.867 INFO  [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-01-04_10 10:17:38.024 INFO  [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-04_10 10:17:38.637 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-04_10 10:17:39.130 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/dept/find/all],methods=[POST]}" onto public lcxy.springcloud.micorserviceentity.commonbox.Result lcxy.springcloud.micorserviceapi.controller.DeptController.findAll()
+2019-01-04_10 10:17:39.132 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/dept/add],methods=[POST]}" onto public lcxy.springcloud.micorserviceentity.commonbox.Result lcxy.springcloud.micorserviceapi.controller.DeptController.addDept(lcxy.springcloud.micorserviceentity.domain.po.DeptPO)
+2019-01-04_10 10:17:39.133 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/dept/del/by_id],methods=[POST]}" onto public lcxy.springcloud.micorserviceentity.commonbox.Result lcxy.springcloud.micorserviceapi.controller.DeptController.delById(lcxy.springcloud.micorserviceentity.domain.dto.IntDTO)
+2019-01-04_10 10:17:39.137 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-01-04_10 10:17:39.138 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-01-04_10 10:17:39.139 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-01-04_10 10:17:39.142 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-04_10 10:17:39.143 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-04_10 10:17:39.306 INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-01-04_10 10:17:39.598 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67a20f67: startup date [Fri Jan 04 10:17:32 CST 2019]; root of context hierarchy
+2019-01-04_10 10:17:39.663 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-04_10 10:17:39.663 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-04_10 10:17:39.703 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-04_10 10:17:40.012 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-01-04_10 10:17:40.014 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2019-01-04_10 10:17:40.015 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-01-04_10 10:17:40.022 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2019-01-04_10 10:17:40.024 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2019-01-04_10 10:17:40.028 INFO  [main] org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2019-01-04_10 10:17:40.028 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-04_10 10:17:40.041 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-04_10 10:17:40.080 INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-04_10 10:17:40.210 INFO  [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-55356"]
+2019-01-04_10 10:17:40.219 INFO  [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-55356"]
+2019-01-04_10 10:17:40.254 INFO  [main] org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-04_10 10:17:40.278 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 55356 (http)
+2019-01-04_10 10:17:40.289 INFO  [main] lcxy.springcloud.micorserviceapi.MicorServiceApiApplication - Started MicorServiceApiApplication in 8.402 seconds (JVM running for 9.609)
+2019-01-04_10 10:17:46.607 INFO  [http-nio-55356-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-01-04_10 10:17:46.608 INFO  [http-nio-55356-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-04_10 10:17:46.640 INFO  [http-nio-55356-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms
+2019-01-04_10 10:21:00.566 INFO  [Thread-20] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67a20f67: startup date [Fri Jan 04 10:17:32 CST 2019]; root of context hierarchy
+2019-01-04_10 10:21:00.587 INFO  [Thread-20] org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+2019-01-04_10 10:21:00.592 INFO  [Thread-20] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-01-04_10 10:21:00.592 INFO  [Thread-20] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-01-04_10 10:21:00.595 INFO  [Thread-20] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-04_10 10:21:00.610 INFO  [Thread-20] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-01-04_10 10:21:05.728 INFO  [main] lcxy.springcloud.micorserviceapi.MicorServiceApiApplication - Starting MicorServiceApiApplication on localhost with PID 54583 (/Users/lcxy_demo/IdeaProjects/micor-service-parent/micor-service-api/target/classes started by lcxy_demo in /Users/lcxy_demo/IdeaProjects/micor-service-parent)
+2019-01-04_10 10:21:05.734 INFO  [main] lcxy.springcloud.micorserviceapi.MicorServiceApiApplication - No active profile set, falling back to default profiles: default
+2019-01-04_10 10:21:05.920 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67a20f67: startup date [Fri Jan 04 10:21:05 CST 2019]; root of context hierarchy
+2019-01-04_10 10:21:06.031 INFO  [background-preinit] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2019-01-04_10 10:21:08.116 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [lcxy.springcloud.micorserviceapi.config.ValidatorConfig$$EnhancerBySpringCGLIB$$257943e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-04_10 10:21:08.196 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validator' of type [org.hibernate.validator.internal.engine.ValidatorImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-04_10 10:21:08.295 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$15b91a16] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-04_10 10:21:08.712 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 55356 (http)
+2019-01-04_10 10:21:08.724 INFO  [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-04_10 10:21:08.725 INFO  [main] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.20
+2019-01-04_10 10:21:08.836 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-04_10 10:21:08.837 INFO  [localhost-startStop-1] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2917 ms
+2019-01-04_10 10:21:09.060 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-01-04_10 10:21:09.061 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-01-04_10 10:21:09.064 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-04_10 10:21:09.065 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-04_10 10:21:09.065 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-04_10 10:21:09.065 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-04_10 10:21:09.066 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2019-01-04_10 10:21:09.102 INFO  [main] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-04_10 10:21:09.671 INFO  [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-04_10 10:21:09.979 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-01-04_10 10:21:09.990 INFO  [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-04_10 10:21:10.063 INFO  [main] org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-01-04_10 10:21:10.064 INFO  [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-01-04_10 10:21:10.066 INFO  [main] org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-01-04_10 10:21:10.074 INFO  [main] org.hibernate.spatial.integration.SpatialService - HHH80000001: hibernate-spatial integration enabled : true
+2019-01-04_10 10:21:10.101 INFO  [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-01-04_10 10:21:10.181 INFO  [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-04_10 10:21:10.549 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-04_10 10:21:11.080 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/dept/add],methods=[POST]}" onto public lcxy.springcloud.micorserviceentity.commonbox.Result lcxy.springcloud.micorserviceapi.controller.DeptController.addDept(lcxy.springcloud.micorserviceentity.domain.po.DeptPO)
+2019-01-04_10 10:21:11.081 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/dept/del/by_id],methods=[POST]}" onto public lcxy.springcloud.micorserviceentity.commonbox.Result lcxy.springcloud.micorserviceapi.controller.DeptController.delById(lcxy.springcloud.micorserviceentity.domain.dto.IntDTO)
+2019-01-04_10 10:21:11.083 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/dept/find/all],methods=[POST]}" onto public lcxy.springcloud.micorserviceentity.commonbox.Result lcxy.springcloud.micorserviceapi.controller.DeptController.findAll()
+2019-01-04_10 10:21:11.088 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-01-04_10 10:21:11.088 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-01-04_10 10:21:11.089 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-01-04_10 10:21:11.093 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-04_10 10:21:11.093 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-04_10 10:21:11.332 INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-01-04_10 10:21:11.710 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67a20f67: startup date [Fri Jan 04 10:21:05 CST 2019]; root of context hierarchy
+2019-01-04_10 10:21:11.764 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-04_10 10:21:11.764 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-04_10 10:21:11.831 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-04_10 10:21:12.153 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-01-04_10 10:21:12.156 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2019-01-04_10 10:21:12.156 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-01-04_10 10:21:12.163 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2019-01-04_10 10:21:12.164 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2019-01-04_10 10:21:12.167 INFO  [main] org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2019-01-04_10 10:21:12.167 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-04_10 10:21:12.178 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-04_10 10:21:12.213 INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-04_10 10:21:12.740 INFO  [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-55356"]
+2019-01-04_10 10:21:12.755 INFO  [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-55356"]
+2019-01-04_10 10:21:12.786 INFO  [main] org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-04_10 10:21:12.802 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 55356 (http)
+2019-01-04_10 10:21:12.813 INFO  [main] lcxy.springcloud.micorserviceapi.MicorServiceApiApplication - Started MicorServiceApiApplication in 7.535 seconds (JVM running for 8.507)
+2019-01-04_10 10:21:32.054 INFO  [http-nio-55356-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-01-04_10 10:21:32.055 INFO  [http-nio-55356-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-04_10 10:21:32.081 INFO  [http-nio-55356-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+2019-01-04_10 10:25:03.719 INFO  [Thread-18] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67a20f67: startup date [Fri Jan 04 10:21:05 CST 2019]; root of context hierarchy
+2019-01-04_10 10:25:03.751 INFO  [Thread-18] org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+2019-01-04_10 10:25:03.758 INFO  [Thread-18] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-01-04_10 10:25:03.760 INFO  [Thread-18] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-01-04_10 10:25:03.763 INFO  [Thread-18] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-04_10 10:25:03.790 INFO  [Thread-18] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-01-04_10 10:26:02.523 INFO  [main] lcxy.springcloud.micorserviceapi.MicorServiceApiApplication - Starting MicorServiceApiApplication on localhost with PID 54726 (/Users/lcxy_demo/IdeaProjects/micor-service-parent/micor-service-api/target/classes started by lcxy_demo in /Users/lcxy_demo/IdeaProjects/micor-service-parent)
+2019-01-04_10 10:26:02.527 INFO  [main] lcxy.springcloud.micorserviceapi.MicorServiceApiApplication - No active profile set, falling back to default profiles: default
+2019-01-04_10 10:26:02.700 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67a20f67: startup date [Fri Jan 04 10:26:02 CST 2019]; root of context hierarchy
+2019-01-04_10 10:26:02.795 INFO  [background-preinit] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2019-01-04_10 10:26:04.485 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [lcxy.springcloud.micorserviceapi.config.ValidatorConfig$$EnhancerBySpringCGLIB$$ed2f0843] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-04_10 10:26:04.592 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validator' of type [org.hibernate.validator.internal.engine.ValidatorImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-04_10 10:26:04.697 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$908e1b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-04_10 10:26:05.104 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 55356 (http)
+2019-01-04_10 10:26:05.115 INFO  [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-04_10 10:26:05.117 INFO  [main] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.20
+2019-01-04_10 10:26:05.244 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-04_10 10:26:05.244 INFO  [localhost-startStop-1] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2544 ms
+2019-01-04_10 10:26:05.451 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-01-04_10 10:26:05.452 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-01-04_10 10:26:05.454 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-04_10 10:26:05.455 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-04_10 10:26:05.455 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-04_10 10:26:05.455 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-04_10 10:26:05.456 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2019-01-04_10 10:26:05.490 INFO  [main] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-04_10 10:26:06.023 INFO  [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-04_10 10:26:06.363 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-01-04_10 10:26:06.378 INFO  [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-04_10 10:26:06.482 INFO  [main] org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-01-04_10 10:26:06.484 INFO  [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-01-04_10 10:26:06.486 INFO  [main] org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-01-04_10 10:26:06.499 INFO  [main] org.hibernate.spatial.integration.SpatialService - HHH80000001: hibernate-spatial integration enabled : true
+2019-01-04_10 10:26:06.539 INFO  [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-01-04_10 10:26:06.720 INFO  [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-04_10 10:26:08.880 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-04_10 10:26:09.666 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/add],methods=[POST]}" onto public lcxy.springcloud.micorserviceentity.commonbox.Result lcxy.springcloud.micorserviceapi.controller.DeptController.addDept(lcxy.springcloud.micorserviceentity.domain.po.DeptPO)
+2019-01-04_10 10:26:09.667 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/del/by_id],methods=[POST]}" onto public lcxy.springcloud.micorserviceentity.commonbox.Result lcxy.springcloud.micorserviceapi.controller.DeptController.delById(lcxy.springcloud.micorserviceentity.domain.dto.IntDTO)
+2019-01-04_10 10:26:09.669 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/find/all],methods=[POST]}" onto public lcxy.springcloud.micorserviceentity.commonbox.Result lcxy.springcloud.micorserviceapi.controller.DeptController.findAll()
+2019-01-04_10 10:26:09.674 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-01-04_10 10:26:09.675 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-01-04_10 10:26:09.676 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-01-04_10 10:26:09.682 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-04_10 10:26:09.684 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-04_10 10:26:10.116 INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-01-04_10 10:26:10.436 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67a20f67: startup date [Fri Jan 04 10:26:02 CST 2019]; root of context hierarchy
+2019-01-04_10 10:26:10.514 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-04_10 10:26:10.514 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-04_10 10:26:10.571 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-04_10 10:26:10.891 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-01-04_10 10:26:10.894 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2019-01-04_10 10:26:10.895 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-01-04_10 10:26:10.901 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2019-01-04_10 10:26:10.903 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2019-01-04_10 10:26:10.907 INFO  [main] org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2019-01-04_10 10:26:10.907 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-04_10 10:26:10.919 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-04_10 10:26:10.950 INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-04_10 10:26:11.076 INFO  [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-55356"]
+2019-01-04_10 10:26:11.085 INFO  [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-55356"]
+2019-01-04_10 10:26:11.112 INFO  [main] org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-04_10 10:26:11.130 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 55356 (http)
+2019-01-04_10 10:26:11.139 INFO  [main] lcxy.springcloud.micorserviceapi.MicorServiceApiApplication - Started MicorServiceApiApplication in 9.223 seconds (JVM running for 10.204)
+2019-01-04_10 10:26:35.059 INFO  [http-nio-55356-exec-2] org.apache.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:422)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:683)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-04_10 10:26:35.059 INFO  [http-nio-55356-exec-1] org.apache.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:422)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:683)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-04_10 10:26:46.653 INFO  [http-nio-55356-exec-5] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-01-04_10 10:26:46.653 INFO  [http-nio-55356-exec-5] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-04_10 10:26:46.714 INFO  [http-nio-55356-exec-5] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 60 ms
+2019-01-04_10 10:30:22.586 INFO  [Thread-20] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67a20f67: startup date [Fri Jan 04 10:26:02 CST 2019]; root of context hierarchy
+2019-01-04_10 10:30:22.607 INFO  [Thread-20] org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+2019-01-04_10 10:30:22.613 INFO  [Thread-20] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-01-04_10 10:30:22.614 INFO  [Thread-20] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-01-04_10 10:30:22.617 INFO  [Thread-20] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-04_10 10:30:22.633 INFO  [Thread-20] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-01-04_10 10:36:40.694 INFO  [main] lcxy.springcloud.micorserviceapi.MicorServiceApiApplication - Starting MicorServiceApiApplication on localhost with PID 55005 (/Users/lcxy_demo/IdeaProjects/micor-service-parent/micor-service-api/target/classes started by lcxy_demo in /Users/lcxy_demo/IdeaProjects/micor-service-parent)
+2019-01-04_10 10:36:40.700 INFO  [main] lcxy.springcloud.micorserviceapi.MicorServiceApiApplication - No active profile set, falling back to default profiles: default
+2019-01-04_10 10:36:40.787 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67a20f67: startup date [Fri Jan 04 10:36:40 CST 2019]; root of context hierarchy
+2019-01-04_10 10:36:41.350 INFO  [background-preinit] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2019-01-04_10 10:36:47.660 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [lcxy.springcloud.micorserviceapi.config.ValidatorConfig$$EnhancerBySpringCGLIB$$f28fed3f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-04_10 10:36:47.819 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validator' of type [org.hibernate.validator.internal.engine.ValidatorImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-04_10 10:36:47.939 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5f17317] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-04_10 10:36:48.452 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 55356 (http)
+2019-01-04_10 10:36:48.467 INFO  [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-04_10 10:36:48.468 INFO  [main] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.20
+2019-01-04_10 10:36:48.616 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-04_10 10:36:48.616 INFO  [localhost-startStop-1] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7830 ms
+2019-01-04_10 10:36:48.969 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-01-04_10 10:36:48.970 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-01-04_10 10:36:48.974 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-04_10 10:36:48.974 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-04_10 10:36:48.975 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-04_10 10:36:48.976 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-04_10 10:36:48.977 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2019-01-04_10 10:36:49.022 INFO  [main] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-04_10 10:36:49.797 INFO  [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-04_10 10:36:50.128 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-01-04_10 10:36:50.142 INFO  [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-04_10 10:36:50.199 INFO  [main] org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-01-04_10 10:36:50.201 INFO  [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-01-04_10 10:36:50.202 INFO  [main] org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-01-04_10 10:36:50.212 INFO  [main] org.hibernate.spatial.integration.SpatialService - HHH80000001: hibernate-spatial integration enabled : true
+2019-01-04_10 10:36:50.250 INFO  [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-01-04_10 10:36:50.346 INFO  [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-04_10 10:36:50.675 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-04_10 10:36:51.245 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/dept/find/all],methods=[POST]}" onto public lcxy.springcloud.micorserviceentity.commonbox.Result lcxy.springcloud.micorserviceapi.controller.DeptController.findAll()
+2019-01-04_10 10:36:51.247 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/dept/add],methods=[POST]}" onto public lcxy.springcloud.micorserviceentity.commonbox.Result lcxy.springcloud.micorserviceapi.controller.DeptController.addDept(lcxy.springcloud.micorserviceentity.domain.po.DeptPO)
+2019-01-04_10 10:36:51.248 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/dept/del/by_id],methods=[POST]}" onto public lcxy.springcloud.micorserviceentity.commonbox.Result lcxy.springcloud.micorserviceapi.controller.DeptController.delById(lcxy.springcloud.micorserviceentity.domain.dto.IntDTO)
+2019-01-04_10 10:36:51.253 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-01-04_10 10:36:51.254 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-01-04_10 10:36:51.255 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-01-04_10 10:36:51.258 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-04_10 10:36:51.259 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-04_10 10:36:51.450 INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-01-04_10 10:36:51.783 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67a20f67: startup date [Fri Jan 04 10:36:40 CST 2019]; root of context hierarchy
+2019-01-04_10 10:36:51.878 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-04_10 10:36:51.878 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-04_10 10:36:51.930 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-04_10 10:36:54.216 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-01-04_10 10:36:54.222 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2019-01-04_10 10:36:54.223 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-01-04_10 10:36:54.237 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2019-01-04_10 10:36:54.238 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2019-01-04_10 10:36:54.244 INFO  [main] org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2019-01-04_10 10:36:54.244 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-04_10 10:36:54.262 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-04_10 10:36:54.262 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Skipping initializing disabled plugin bean swagger v2.0
+2019-01-04_10 10:36:54.278 INFO  [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-55356"]
+2019-01-04_10 10:36:54.295 INFO  [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-55356"]
+2019-01-04_10 10:36:54.332 INFO  [main] org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-04_10 10:36:54.463 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 55356 (http)
+2019-01-04_10 10:36:54.480 INFO  [main] lcxy.springcloud.micorserviceapi.MicorServiceApiApplication - Started MicorServiceApiApplication in 16.305 seconds (JVM running for 19.148)
+2019-01-04_10 10:37:14.623 INFO  [http-nio-55356-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-01-04_10 10:37:14.626 INFO  [http-nio-55356-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-04_10 10:37:14.685 INFO  [http-nio-55356-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 58 ms
+2019-01-04_10 10:37:14.741 WARN  [http-nio-55356-exec-1] org.springframework.web.servlet.PageNotFound - Request method 'GET' not supported
+2019-01-04_10 10:37:18.838 WARN  [http-nio-55356-exec-2] org.springframework.web.servlet.PageNotFound - Request method 'GET' not supported
+2019-01-04_10 10:37:42.836 INFO  [Thread-26] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67a20f67: startup date [Fri Jan 04 10:36:40 CST 2019]; root of context hierarchy
+2019-01-04_10 10:37:42.845 INFO  [Thread-26] org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+2019-01-04_10 10:37:42.849 INFO  [Thread-26] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-01-04_10 10:37:42.849 INFO  [Thread-26] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-01-04_10 10:37:42.852 INFO  [Thread-26] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-04_10 10:37:42.862 INFO  [Thread-26] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-01-04_10 10:41:17.800 INFO  [main] lcxy.springcloud.micorserviceapi.MicorServiceApiApplication - Starting MicorServiceApiApplication on localhost with PID 55138 (/Users/lcxy_demo/IdeaProjects/micor-service-parent/micor-service-api/target/classes started by lcxy_demo in /Users/lcxy_demo/IdeaProjects/micor-service-parent)
+2019-01-04_10 10:41:17.804 INFO  [main] lcxy.springcloud.micorserviceapi.MicorServiceApiApplication - No active profile set, falling back to default profiles: default
+2019-01-04_10 10:41:17.998 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67a20f67: startup date [Fri Jan 04 10:41:17 CST 2019]; root of context hierarchy
+2019-01-04_10 10:41:18.139 INFO  [background-preinit] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2019-01-04_10 10:41:20.185 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [lcxy.springcloud.micorserviceapi.config.ValidatorConfig$$EnhancerBySpringCGLIB$$fedcd199] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-04_10 10:41:20.313 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validator' of type [org.hibernate.validator.internal.engine.ValidatorImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-04_10 10:41:20.404 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$123e5771] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-04_10 10:41:20.847 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 55356 (http)
+2019-01-04_10 10:41:20.860 INFO  [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-04_10 10:41:20.862 INFO  [main] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.20
+2019-01-04_10 10:41:20.982 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-04_10 10:41:20.982 INFO  [localhost-startStop-1] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2984 ms
+2019-01-04_10 10:41:21.171 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-01-04_10 10:41:21.172 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-01-04_10 10:41:21.176 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-04_10 10:41:21.178 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-04_10 10:41:21.178 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-04_10 10:41:21.178 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-04_10 10:41:21.179 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2019-01-04_10 10:41:21.223 INFO  [main] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-04_10 10:41:21.726 INFO  [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-04_10 10:41:22.065 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-01-04_10 10:41:22.081 INFO  [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-04_10 10:41:22.174 INFO  [main] org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-01-04_10 10:41:22.175 INFO  [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-01-04_10 10:41:22.178 INFO  [main] org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-01-04_10 10:41:22.193 INFO  [main] org.hibernate.spatial.integration.SpatialService - HHH80000001: hibernate-spatial integration enabled : true
+2019-01-04_10 10:41:22.241 INFO  [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-01-04_10 10:41:22.372 INFO  [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-04_10 10:41:22.733 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-04_10 10:41:23.322 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/dept/del/by_id],methods=[POST]}" onto public lcxy.springcloud.micorserviceentity.commonbox.Result lcxy.springcloud.micorserviceapi.controller.DeptController.delById(lcxy.springcloud.micorserviceentity.domain.dto.IntDTO)
+2019-01-04_10 10:41:23.324 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/dept/find/all],methods=[POST]}" onto public lcxy.springcloud.micorserviceentity.commonbox.Result lcxy.springcloud.micorserviceapi.controller.DeptController.findAll()
+2019-01-04_10 10:41:23.325 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/dept/add],methods=[POST]}" onto public lcxy.springcloud.micorserviceentity.commonbox.Result lcxy.springcloud.micorserviceapi.controller.DeptController.addDept(lcxy.springcloud.micorserviceentity.domain.po.DeptPO)
+2019-01-04_10 10:41:23.329 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-01-04_10 10:41:23.330 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-01-04_10 10:41:23.330 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-01-04_10 10:41:23.334 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-04_10 10:41:23.335 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-04_10 10:41:23.536 INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-01-04_10 10:41:23.787 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67a20f67: startup date [Fri Jan 04 10:41:17 CST 2019]; root of context hierarchy
+2019-01-04_10 10:41:23.862 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-04_10 10:41:23.862 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-04_10 10:41:23.907 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-04_10 10:41:24.259 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-01-04_10 10:41:24.262 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2019-01-04_10 10:41:24.262 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-01-04_10 10:41:24.268 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2019-01-04_10 10:41:24.270 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2019-01-04_10 10:41:24.274 INFO  [main] org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2019-01-04_10 10:41:24.274 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-04_10 10:41:24.293 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-04_10 10:41:24.294 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Skipping initializing disabled plugin bean swagger v2.0
+2019-01-04_10 10:41:24.306 INFO  [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-55356"]
+2019-01-04_10 10:41:24.316 INFO  [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-55356"]
+2019-01-04_10 10:41:24.346 INFO  [main] org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-04_10 10:41:24.367 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 55356 (http)
+2019-01-04_10 10:41:24.375 INFO  [main] lcxy.springcloud.micorserviceapi.MicorServiceApiApplication - Started MicorServiceApiApplication in 7.236 seconds (JVM running for 8.7)
+2019-01-04_10 10:42:24.961 INFO  [Thread-18] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67a20f67: startup date [Fri Jan 04 10:41:17 CST 2019]; root of context hierarchy
+2019-01-04_10 10:42:24.973 INFO  [Thread-18] org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+2019-01-04_10 10:42:24.977 INFO  [Thread-18] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-01-04_10 10:42:24.978 INFO  [Thread-18] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-01-04_10 10:42:24.984 INFO  [Thread-18] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-04_10 10:42:24.997 INFO  [Thread-18] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-01-04_10 10:42:35.110 INFO  [main] lcxy.springcloud.micorserviceapi.MicorServiceApiApplication - Starting MicorServiceApiApplication on localhost with PID 55174 (/Users/lcxy_demo/IdeaProjects/micor-service-parent/micor-service-api/target/classes started by lcxy_demo in /Users/lcxy_demo/IdeaProjects/micor-service-parent)
+2019-01-04_10 10:42:35.113 INFO  [main] lcxy.springcloud.micorserviceapi.MicorServiceApiApplication - No active profile set, falling back to default profiles: default
+2019-01-04_10 10:42:35.166 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67a20f67: startup date [Fri Jan 04 10:42:35 CST 2019]; root of context hierarchy
+2019-01-04_10 10:42:35.375 INFO  [background-preinit] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2019-01-04_10 10:42:39.219 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [lcxy.springcloud.micorserviceapi.config.ValidatorConfig$$EnhancerBySpringCGLIB$$acb32333] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-04_10 10:42:39.418 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validator' of type [org.hibernate.validator.internal.engine.ValidatorImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-04_10 10:42:39.675 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c014a90b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-04_10 10:42:40.321 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 55356 (http)
+2019-01-04_10 10:42:40.348 INFO  [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-04_10 10:42:40.349 INFO  [main] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.20
+2019-01-04_10 10:42:40.511 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+2019-01-04_10 10:42:40.511 INFO  [localhost-startStop-1] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5345 ms
+2019-01-04_10 10:42:40.740 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-01-04_10 10:42:40.742 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-01-04_10 10:42:40.746 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-04_10 10:42:40.747 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-04_10 10:42:40.747 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-04_10 10:42:40.747 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-04_10 10:42:40.747 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2019-01-04_10 10:42:40.794 INFO  [main] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-04_10 10:42:41.963 INFO  [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-04_10 10:42:42.463 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-01-04_10 10:42:42.479 INFO  [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-04_10 10:42:42.582 INFO  [main] org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-01-04_10 10:42:42.584 INFO  [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-01-04_10 10:42:42.586 INFO  [main] org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-01-04_10 10:42:42.597 INFO  [main] org.hibernate.spatial.integration.SpatialService - HHH80000001: hibernate-spatial integration enabled : true
+2019-01-04_10 10:42:42.644 INFO  [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-01-04_10 10:42:42.796 INFO  [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-04_10 10:42:43.142 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-04_10 10:42:43.988 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/dept/find/all],methods=[POST]}" onto public lcxy.springcloud.micorserviceentity.commonbox.Result lcxy.springcloud.micorserviceapi.controller.DeptController.findAll()
+2019-01-04_10 10:42:43.991 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/dept/add],methods=[POST]}" onto public lcxy.springcloud.micorserviceentity.commonbox.Result lcxy.springcloud.micorserviceapi.controller.DeptController.addDept(lcxy.springcloud.micorserviceentity.domain.po.DeptPO)
+2019-01-04_10 10:42:43.992 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/dept/del/by_id],methods=[POST]}" onto public lcxy.springcloud.micorserviceentity.commonbox.Result lcxy.springcloud.micorserviceapi.controller.DeptController.delById(lcxy.springcloud.micorserviceentity.domain.dto.IntDTO)
+2019-01-04_10 10:42:43.999 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-01-04_10 10:42:43.999 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-01-04_10 10:42:44.000 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-01-04_10 10:42:44.005 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-04_10 10:42:44.006 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-04_10 10:42:44.233 INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-01-04_10 10:42:44.525 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67a20f67: startup date [Fri Jan 04 10:42:35 CST 2019]; root of context hierarchy
+2019-01-04_10 10:42:44.583 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-04_10 10:42:44.583 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-04_10 10:42:44.624 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-04_10 10:42:44.959 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-01-04_10 10:42:44.963 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2019-01-04_10 10:42:44.964 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-01-04_10 10:42:44.972 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2019-01-04_10 10:42:44.974 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2019-01-04_10 10:42:44.977 INFO  [main] org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2019-01-04_10 10:42:44.978 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-04_10 10:42:44.992 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-04_10 10:42:44.992 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Skipping initializing disabled plugin bean swagger v2.0
+2019-01-04_10 10:42:45.005 INFO  [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-55356"]
+2019-01-04_10 10:42:45.017 INFO  [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-55356"]
+2019-01-04_10 10:42:45.047 INFO  [main] org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-04_10 10:42:45.066 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 55356 (http)
+2019-01-04_10 10:42:45.074 INFO  [main] lcxy.springcloud.micorserviceapi.MicorServiceApiApplication - Started MicorServiceApiApplication in 10.501 seconds (JVM running for 11.293)
+2019-01-04_10 10:43:08.408 INFO  [http-nio-55356-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-01-04_10 10:43:08.409 INFO  [http-nio-55356-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-04_10 10:43:08.437 INFO  [http-nio-55356-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+2019-01-04_10 10:53:22.635 INFO  [Thread-23] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67a20f67: startup date [Fri Jan 04 10:42:35 CST 2019]; root of context hierarchy
+2019-01-04_10 10:53:22.658 INFO  [Thread-23] org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+2019-01-04_10 10:53:22.665 INFO  [Thread-23] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-01-04_10 10:53:22.666 INFO  [Thread-23] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-01-04_10 10:53:22.669 INFO  [Thread-23] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-04_10 10:53:22.686 INFO  [Thread-23] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-01-04_10 10:53:30.236 INFO  [main] lcxy.springcloud.micorserviceapi.MicorServiceApiApplication - Starting MicorServiceApiApplication on localhost with PID 55455 (/Users/lcxy_demo/IdeaProjects/micor-service-parent/micor-service-api/target/classes started by lcxy_demo in /Users/lcxy_demo/IdeaProjects/micor-service-parent)
+2019-01-04_10 10:53:30.239 INFO  [main] lcxy.springcloud.micorserviceapi.MicorServiceApiApplication - No active profile set, falling back to default profiles: default
+2019-01-04_10 10:53:30.358 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67a20f67: startup date [Fri Jan 04 10:53:30 CST 2019]; root of context hierarchy
+2019-01-04_10 10:53:30.525 INFO  [background-preinit] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2019-01-04_10 10:53:32.238 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [lcxy.springcloud.micorserviceapi.config.ValidatorConfig$$EnhancerBySpringCGLIB$$b0a3e0a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-04_10 10:53:32.312 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validator' of type [org.hibernate.validator.internal.engine.ValidatorImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-04_10 10:53:32.397 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1e6bc3e2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-04_10 10:53:32.744 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 55356 (http)
+2019-01-04_10 10:53:32.755 INFO  [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-04_10 10:53:32.756 INFO  [main] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.20
+2019-01-04_10 10:53:32.860 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+2019-01-04_10 10:53:32.861 INFO  [localhost-startStop-1] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2503 ms
+2019-01-04_10 10:53:33.044 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-01-04_10 10:53:33.046 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-01-04_10 10:53:33.050 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-04_10 10:53:33.051 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-04_10 10:53:33.051 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-04_10 10:53:33.051 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-04_10 10:53:33.051 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2019-01-04_10 10:53:33.083 INFO  [main] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-04_10 10:53:33.580 INFO  [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-04_10 10:53:33.874 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-01-04_10 10:53:33.888 INFO  [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-04_10 10:53:33.943 INFO  [main] org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-01-04_10 10:53:33.944 INFO  [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-01-04_10 10:53:33.945 INFO  [main] org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-01-04_10 10:53:33.953 INFO  [main] org.hibernate.spatial.integration.SpatialService - HHH80000001: hibernate-spatial integration enabled : true
+2019-01-04_10 10:53:33.983 INFO  [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-01-04_10 10:53:34.059 INFO  [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-04_10 10:53:34.422 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-04_10 10:53:34.942 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/dept/find/all],methods=[POST]}" onto public lcxy.springcloud.micorserviceentity.commonbox.Result lcxy.springcloud.micorserviceapi.controller.DeptController.findAll()
+2019-01-04_10 10:53:34.944 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/dept/add],methods=[POST]}" onto public lcxy.springcloud.micorserviceentity.commonbox.Result lcxy.springcloud.micorserviceapi.controller.DeptController.addDept(lcxy.springcloud.micorserviceentity.domain.po.DeptPO)
+2019-01-04_10 10:53:34.945 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/dept/del/by_id],methods=[POST]}" onto public lcxy.springcloud.micorserviceentity.commonbox.Result lcxy.springcloud.micorserviceapi.controller.DeptController.delById(lcxy.springcloud.micorserviceentity.domain.dto.IntDTO)
+2019-01-04_10 10:53:34.949 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-01-04_10 10:53:34.950 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-01-04_10 10:53:34.951 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-01-04_10 10:53:34.953 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-04_10 10:53:34.954 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-04_10 10:53:35.112 INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-01-04_10 10:53:35.425 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67a20f67: startup date [Fri Jan 04 10:53:30 CST 2019]; root of context hierarchy
+2019-01-04_10 10:53:35.497 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-04_10 10:53:35.497 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-04_10 10:53:35.517 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in globalExceptionController
+2019-01-04_10 10:53:35.542 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-04_10 10:53:35.864 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-01-04_10 10:53:35.867 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2019-01-04_10 10:53:35.867 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-01-04_10 10:53:35.874 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2019-01-04_10 10:53:35.875 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2019-01-04_10 10:53:35.879 INFO  [main] org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2019-01-04_10 10:53:35.879 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-04_10 10:53:35.891 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-04_10 10:53:35.892 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Skipping initializing disabled plugin bean swagger v2.0
+2019-01-04_10 10:53:35.906 INFO  [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-55356"]
+2019-01-04_10 10:53:35.918 INFO  [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-55356"]
+2019-01-04_10 10:53:35.943 INFO  [main] org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-04_10 10:53:35.957 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 55356 (http)
+2019-01-04_10 10:53:35.965 INFO  [main] lcxy.springcloud.micorserviceapi.MicorServiceApiApplication - Started MicorServiceApiApplication in 6.145 seconds (JVM running for 7.004)
+2019-01-04_10 10:53:50.527 INFO  [http-nio-55356-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-01-04_10 10:53:50.528 INFO  [http-nio-55356-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-04_10 10:53:50.558 INFO  [http-nio-55356-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
+2019-01-04_10 10:55:07.725 INFO  [Thread-15] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67a20f67: startup date [Fri Jan 04 10:53:30 CST 2019]; root of context hierarchy
+2019-01-04_10 10:55:07.728 INFO  [Thread-15] org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+2019-01-04_10 10:55:07.731 INFO  [Thread-15] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-01-04_10 10:55:07.731 INFO  [Thread-15] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-01-04_10 10:55:07.733 INFO  [Thread-15] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-04_10 10:55:07.739 INFO  [Thread-15] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-01-04_10 10:55:17.056 INFO  [main] lcxy.springcloud.micorserviceapi.MicorServiceApiApplication - Starting MicorServiceApiApplication on localhost with PID 55502 (/Users/lcxy_demo/IdeaProjects/micor-service-parent/micor-service-api/target/classes started by lcxy_demo in /Users/lcxy_demo/IdeaProjects/micor-service-parent)
+2019-01-04_10 10:55:17.061 INFO  [main] lcxy.springcloud.micorserviceapi.MicorServiceApiApplication - No active profile set, falling back to default profiles: default
+2019-01-04_10 10:55:17.262 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67a20f67: startup date [Fri Jan 04 10:55:17 CST 2019]; root of context hierarchy
+2019-01-04_10 10:55:17.261 INFO  [background-preinit] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2019-01-04_10 10:55:19.022 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [lcxy.springcloud.micorserviceapi.config.ValidatorConfig$$EnhancerBySpringCGLIB$$843149e9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-04_10 10:55:19.107 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validator' of type [org.hibernate.validator.internal.engine.ValidatorImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-04_10 10:55:19.192 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9792cfc1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-04_10 10:55:19.568 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 55356 (http)
+2019-01-04_10 10:55:19.581 INFO  [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-04_10 10:55:19.582 INFO  [main] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.20
+2019-01-04_10 10:55:19.680 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+2019-01-04_10 10:55:19.680 INFO  [localhost-startStop-1] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2418 ms
+2019-01-04_10 10:55:19.891 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-01-04_10 10:55:19.893 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-01-04_10 10:55:19.896 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-04_10 10:55:19.896 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-04_10 10:55:19.897 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-04_10 10:55:19.897 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-04_10 10:55:19.897 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2019-01-04_10 10:55:19.936 INFO  [main] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-04_10 10:55:20.442 INFO  [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-04_10 10:55:20.743 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-01-04_10 10:55:20.754 INFO  [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-04_10 10:55:20.813 INFO  [main] org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-01-04_10 10:55:20.814 INFO  [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-01-04_10 10:55:20.815 INFO  [main] org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-01-04_10 10:55:20.822 INFO  [main] org.hibernate.spatial.integration.SpatialService - HHH80000001: hibernate-spatial integration enabled : true
+2019-01-04_10 10:55:20.848 INFO  [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-01-04_10 10:55:20.931 INFO  [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-04_10 10:55:21.290 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-04_10 10:55:21.828 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/dept/find/all],methods=[POST]}" onto public lcxy.springcloud.micorserviceentity.commonbox.Result lcxy.springcloud.micorserviceapi.controller.DeptController.findAll()
+2019-01-04_10 10:55:21.831 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/dept/add],methods=[POST]}" onto public lcxy.springcloud.micorserviceentity.commonbox.Result lcxy.springcloud.micorserviceapi.controller.DeptController.addDept(lcxy.springcloud.micorserviceentity.domain.po.DeptPO)
+2019-01-04_10 10:55:21.832 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/dept/del/by_id],methods=[POST]}" onto public lcxy.springcloud.micorserviceentity.commonbox.Result lcxy.springcloud.micorserviceapi.controller.DeptController.delById(lcxy.springcloud.micorserviceentity.domain.dto.IntDTO)
+2019-01-04_10 10:55:21.835 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/404],methods=[GET]}" onto public lcxy.springcloud.micorserviceentity.commonbox.Result lcxy.springcloud.micorserviceapi.controller.ErrorController.notFound()
+2019-01-04_10 10:55:21.836 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/401],methods=[GET]}" onto public lcxy.springcloud.micorserviceentity.commonbox.Result lcxy.springcloud.micorserviceapi.controller.ErrorController.unauthorized()
+2019-01-04_10 10:55:21.841 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-01-04_10 10:55:21.842 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-01-04_10 10:55:21.843 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-01-04_10 10:55:21.845 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-04_10 10:55:21.846 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-04_10 10:55:22.013 INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-01-04_10 10:55:22.290 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67a20f67: startup date [Fri Jan 04 10:55:17 CST 2019]; root of context hierarchy
+2019-01-04_10 10:55:22.346 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-04_10 10:55:22.347 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-04_10 10:55:22.368 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in globalExceptionController
+2019-01-04_10 10:55:22.393 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-04_10 10:55:22.691 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-01-04_10 10:55:22.693 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2019-01-04_10 10:55:22.693 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-01-04_10 10:55:22.700 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2019-01-04_10 10:55:22.701 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2019-01-04_10 10:55:22.705 INFO  [main] org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2019-01-04_10 10:55:22.705 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-04_10 10:55:22.719 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-04_10 10:55:22.719 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Skipping initializing disabled plugin bean swagger v2.0
+2019-01-04_10 10:55:22.730 INFO  [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-55356"]
+2019-01-04_10 10:55:22.739 INFO  [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-55356"]
+2019-01-04_10 10:55:22.766 INFO  [main] org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-04_10 10:55:22.780 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 55356 (http)
+2019-01-04_10 10:55:22.787 INFO  [main] lcxy.springcloud.micorserviceapi.MicorServiceApiApplication - Started MicorServiceApiApplication in 6.23 seconds (JVM running for 7.154)
+2019-01-04_10 10:55:37.672 INFO  [http-nio-55356-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-01-04_10 10:55:37.677 INFO  [http-nio-55356-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-04_10 10:55:37.748 INFO  [http-nio-55356-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 71 ms
+2019-01-04_10 10:56:57.950 INFO  [Thread-15] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67a20f67: startup date [Fri Jan 04 10:55:17 CST 2019]; root of context hierarchy
+2019-01-04_10 10:56:57.953 INFO  [Thread-15] org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+2019-01-04_10 10:56:57.956 INFO  [Thread-15] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-01-04_10 10:56:57.957 INFO  [Thread-15] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-01-04_10 10:56:57.960 INFO  [Thread-15] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-04_10 10:56:57.970 INFO  [Thread-15] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
