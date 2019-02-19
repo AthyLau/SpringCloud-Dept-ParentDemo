@@ -1,6 +1,7 @@
 package lcxy.springcloud.micorserviceconsumerdeptfeign9002.config;
 
 import com.netflix.loadbalancer.IRule;
+import com.netflix.loadbalancer.RandomRule;
 import com.netflix.loadbalancer.RoundRobinRule;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
@@ -32,7 +33,7 @@ public class ConfigBean {
      */
     @Bean
     public IRule getIRule(){
-        return new RoundRobinRule();//轮询
-//        return new RandomRule();//随机
+//        return new RoundRobinRule();//轮询
+        return new RandomRule();//随机
     }
 }
