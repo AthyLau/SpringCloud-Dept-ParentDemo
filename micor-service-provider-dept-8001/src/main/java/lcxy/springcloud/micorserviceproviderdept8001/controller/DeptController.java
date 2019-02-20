@@ -10,8 +10,6 @@ import lcxy.springcloud.micorserviceentity.domain.dto.IntDTO;
 import lcxy.springcloud.micorserviceentity.domain.po.DeptPO;
 import lcxy.springcloud.micorserviceproviderdept8001.service.DeptService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cloud.client.ServiceInstance;
-import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

@@ -2,21 +2,21 @@ package lcxy.springcloud.micorserviceconsumerdept9001.config;
 
 import com.netflix.client.config.IClientConfig;
 import com.netflix.loadbalancer.IRule;
+import com.netflix.loadbalancer.RandomRule;
 import com.netflix.loadbalancer.RoundRobinRule;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 
 /**
  * Function:
  *
  * @author liubing
- * Date: 2019/2/20 上午10:34
+ * Date: 2019/2/20 上午11:27
  * @since JDK 1.8
  */
 
-public class LoadBalancedConfig {
 
+public class EmployeeLoadBalanceConfig {
     @Autowired
     IClientConfig clientConfig;
     /**
@@ -30,5 +30,4 @@ public class LoadBalancedConfig {
         return new RoundRobinRule();//轮询
 //        return new RandomRule();//随机
     }
-
 }

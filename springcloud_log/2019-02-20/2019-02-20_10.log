@@ -1530,7 +1530,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field clientConfig in lcxy.springcloud.micorserviceconsumerdept9001.config.LoadBalancedConfig required a bean of type 'com.netflix.client.config.IClientConfig' that could not be found.
+Field clientConfig in lcxy.springcloud.micorserviceconsumerdept9001.config.DeptLoadBalancedConfig required a bean of type 'com.netflix.client.config.IClientConfig' that could not be found.
 
 
 Action:
@@ -1618,7 +1618,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field clientConfig in lcxy.springcloud.micorserviceconsumerdept9001.config.LoadBalancedConfig required a bean of type 'com.netflix.client.config.IClientConfig' that could not be found.
+Field clientConfig in lcxy.springcloud.micorserviceconsumerdept9001.config.DeptLoadBalancedConfig required a bean of type 'com.netflix.client.config.IClientConfig' that could not be found.
 
 
 Action:
