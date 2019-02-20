@@ -25,15 +25,4 @@ public class ConfigBean {
         return new RestTemplate();
     }
 
-    /**
-     * 配置生成IRule对象所采用的选择微服务的方式为 轮 询
-     *
-     * 切换负载均衡的算法
-     * @return
-     */
-    @Bean
-    public IRule getIRule(){
-        return new RoundRobinRule();//轮询
-//        return new RandomRule();//随机
-    }
 }

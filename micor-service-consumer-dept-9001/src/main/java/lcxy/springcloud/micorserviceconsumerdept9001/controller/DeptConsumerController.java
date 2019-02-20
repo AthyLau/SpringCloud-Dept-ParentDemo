@@ -6,7 +6,6 @@ import lcxy.springcloud.micorserviceentity.commonbox.Result;
 import lcxy.springcloud.micorserviceentity.domain.dto.DeptDTO;
 import lcxy.springcloud.micorserviceentity.domain.dto.IntDTO;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
