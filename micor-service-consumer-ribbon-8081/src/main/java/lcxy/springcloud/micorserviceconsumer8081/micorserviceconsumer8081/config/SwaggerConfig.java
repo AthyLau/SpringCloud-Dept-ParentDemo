@@ -36,7 +36,7 @@ public class SwaggerConfig {
                 .enable(enabledSwagger)
                 .select()
                 //指定扫描添加了@ApiOperation注解的请求/Users/lcxy_demo/IdeaProjects/micor-service-parent/micor-service-consumer-dept-8002/src/main/java/lcxy/springcloud/micorserviceconsumerdept8002/controller
-                .apis(RequestHandlerSelectors.basePackage("lcxy.springcloud.micorserviceconsumerdept9001.controller"))
+                .apis(RequestHandlerSelectors.basePackage("lcxy.springcloud.micorserviceconsumer8081.micorserviceconsumer8081.controller"))
                 .paths(PathSelectors.any())
                 .build()
                 .securitySchemes(
@@ -48,7 +48,7 @@ public class SwaggerConfig {
 
         return new ApiInfoBuilder()
                 .title("springcloud")
-                .description("springcloud服务端接口")
+                .description("springcloud消费者接口")
                 .version("1.0-SNAPSHOT")
                 .build();
     }
