@@ -1,0 +1,6 @@
+micor-service-api
+此module中主要存放的是公用的接口
+目前service包中存放的是关于feign的模块调用的接口
+本模块引用了micor-service-entity模块
+如果对本模块进行改动则必须进入到本模块的主目录下进行mvn clean install操作然后对于引用到本模块的其他模块pom文件重新reimport
+引用到本模块的模块有micor-service-consumer-feign-8082、micor-service-consumer-dept-feign-9002
