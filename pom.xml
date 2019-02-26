@@ -22,6 +22,7 @@
         <module>micor-service-provider-employee-8005</module>
         <module>micor-service-provider-employee-8006</module>
         <module>micor-service-consumer-ribbon-8081</module>
+        <module>micor-service-consumer-feign-8082</module>
     </modules>
 
     <parent>

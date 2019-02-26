@@ -8,8 +8,8 @@
 		<version>1.0-SNAPSHOT</version>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>micor-service-consumer-dept-feign-9002</artifactId>
-	<name>micor-service-consumer-dept-feign-9002</name>
+	<artifactId>micor-service-consumer-feign-8082</artifactId>
+	<name>micor-service-consumer-feign-8082</name>
 	<!-- FIXME change it to the project's website -->
 	<url>http://www.example.com</url>
 
@@ -20,7 +20,7 @@
 	</properties>
 
 	<dependencies>
-		<!--feign-->
+		<!--feign相关-->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-feign</artifactId>
@@ -109,11 +109,7 @@
 			<artifactId>micor-service-entity</artifactId>
 			<version>1.0-SNAPSHOT</version>
 		</dependency>
-		<dependency>
-			<groupId>lcxy.springcloud</groupId>
-			<artifactId>micor-service-api</artifactId>
-			<version>1.0-SNAPSHOT</version>
-		</dependency>
+
 		<!-- PageHelper -->
 		<dependency>
 			<groupId>com.github.pagehelper</groupId>

@@ -20,6 +20,11 @@
     </properties>
 
     <dependencies>
+        <!--feign相关-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-feign</artifactId>
+        </dependency>
         <!-- Druid Spring Boot   -->
         <dependency>
             <groupId>com.alibaba</groupId>
