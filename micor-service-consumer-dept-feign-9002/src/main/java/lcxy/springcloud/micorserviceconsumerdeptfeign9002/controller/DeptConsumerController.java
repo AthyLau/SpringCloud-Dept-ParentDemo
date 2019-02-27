@@ -1,16 +1,13 @@
 package lcxy.springcloud.micorserviceconsumerdeptfeign9002.controller;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiOperation;
 import lcxy.springcloud.micorserviceapi.service.DeptServiceINF;
 import lcxy.springcloud.micorserviceentity.commonbox.Result;
-import lcxy.springcloud.micorserviceentity.commonbox.ResultCode;
-import lcxy.springcloud.micorserviceentity.commonbox.ResultGenerator;
-import lcxy.springcloud.micorserviceentity.domain.po.DeptPO;
+import lcxy.springcloud.micorserviceentity.domain.dto.DeptDTO;
+import lcxy.springcloud.micorserviceentity.domain.dto.IntDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import java.util.*;
 /**
  * Function:部门服务消费者
  *
@@ -35,5 +32,15 @@ public class DeptConsumerController {
     @GetMapping(value = "/discovery")
     public Result discovery(){
         return this.deptServiceINF.discovery();
+    }
+    @ApiOperation(value = "添加", httpMethod = "POST")
+    @PostMapping("/add")
+    public Result addDept(@RequestBody DeptDTO deptDTO){
+        return this.deptServiceINF.addDept(deptDTO);
+    }
+    @ApiOperation(value = "删除", httpMethod = "POST")
+    @PostMapping("/del/by_id")
+    public Result delById(@RequestBody IntDTO intDTO){
+        return this.deptServiceINF.delById(intDTO);
     }
 }
