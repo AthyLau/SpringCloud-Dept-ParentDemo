@@ -10,6 +10,7 @@
     <modules>
         <module>micor-service-api</module>
         <module>micor-service-provider-dept-8001</module>
+        <module>micor-service-provider-dept-hystrix-8001</module>
         <module>micor-service-provider-dept-8002</module>
         <module>micor-service-provider-dept-8003</module>
         <module>micor-service-entity</module>
