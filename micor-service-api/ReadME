@@ -4,3 +4,11 @@ micor-service-api
 本模块引用了micor-service-entity模块
 如果对本模块进行改动则必须进入到本模块的主目录下进行mvn clean install操作然后对于引用到本模块的其他模块pom文件重新reimport
 引用到本模块的模块有micor-service-consumer-feign-8082、micor-service-consumer-dept-feign-9002
+
+
+
+如何实现hystrix的服务熔断降级
+客户调用访问消费者add接口，
+消费者通过Api module中的deptservice接口来访问注册在eureka上的服务，消费者调用出现异常或者超时就会进入熔断的状态
+熔断之后回调写在Api module中的deptservice接口中已经与服务提供者解藕的回调方法
+对该服务进行降级处理
