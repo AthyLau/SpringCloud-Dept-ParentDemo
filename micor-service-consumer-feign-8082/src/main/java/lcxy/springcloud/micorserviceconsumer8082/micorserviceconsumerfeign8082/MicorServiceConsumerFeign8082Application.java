@@ -6,8 +6,10 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.feign.EnableFeignClients;
 
 @EnableEurekaClient
-@SpringBootApplication
-@EnableFeignClients(basePackages = {"lcxy.springcloud.micorserviceapi.service","lcxy.springcloud.micorserviceconsumerfeign8082"})
+//扫描服务降级的类
+@SpringBootApplication(scanBasePackages = {"lcxy.springcloud.micorserviceapi.service","lcxy.springcloud.micorserviceconsumer8082.micorserviceconsumerfeign8082"})
+//扫描FeignClient注解所标注的类
+@EnableFeignClients(basePackages = {"lcxy.springcloud.micorserviceapi.service","lcxy.springcloud.micorserviceconsumer8082.micorserviceconsumerfeign8082"})
 public class MicorServiceConsumerFeign8082Application {
 
 	public static void main(String[] args) {

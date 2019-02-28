@@ -1,0 +1,19 @@
+这里是使用了feign的负载均衡访问deptprovider的dept消费者
+
+使用了@EnableFeignClients(basePackages =
+           {"lcxy.springcloud.micorserviceapi.service","lcxy.springcloud.micorserviceconsumerdeptfeign9002"})
+这个注解是检索lcxy.springcloud.micorserviceapi.service目录下的所有的带着@FeignClient注解的类并注入到容器
+
+后来添加了服务熔断机制在micor-service-provider-dept-hystrix-8001这个项目中
+而本项目作为dept的消费者访问add接口的时候会按照需求出现服务熔断，如果8001这个服务提供者提供的服务挂掉了
+则会调用API中的服务回调类，完成服务降级的处理
+
+
+当时完成服务降级的时候出现了一堆问题，比如说是 服务回调类无法注入到Spring容器没有Bean实例
+
+为什么会出现这个错误呢？明明在APi工程中都把该写的都写了注解也都加了。
+因为服务回调类在API工程中，与本项目没有关系，本项目启动的时候主启动类的@SpringBootApplication注解扫描包的时候只是
+扫描了本项目主启动类所在的包以及子包，并没有扫描服务回调类所在的包，没有扫描服务回调类所在的包所以导致了服务
+回调类上的注解不生效，所以就导致没有注入到Bean实例。而EnableFeignClients注解并不会去扫描除了带着@FeignClient注解之外的类
+此问题已经解决并写了一篇博客。
+

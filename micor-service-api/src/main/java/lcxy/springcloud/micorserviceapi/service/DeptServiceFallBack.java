@@ -21,21 +21,21 @@ import org.springframework.stereotype.Service;
 public class DeptServiceFallBack implements DeptServiceINF{
     @Override
     public Result findAll() {
-        return null;
+        return ResultGenerator.genFailResult("消费者提供的服务降级信息，该服务提供者已经下线d1");
     }
 
     @Override
     public Result discovery() {
-        return null;
+        return ResultGenerator.genFailResult("消费者提供的服务降级信息，该服务提供者已经下线d2");
     }
 
     @Override
     public Result addDept(DeptDTO deptDTO) {
-        return ResultGenerator.genFailResult("消费者提供的服务降级信息，该服务提供者已经下线");
+        return ResultGenerator.genFailResult("消费者提供的服务降级信息，该服务提供者已经下线d3");
     }
 
     @Override
     public Result delById(IntDTO intDTO) {
-        return null;
+        return ResultGenerator.genFailResult("消费者提供的服务降级信息，该服务提供者已经下线d4");
     }
 }

@@ -1,0 +1,8 @@
+本模块是dept部门的消费者
+集成了ribbon客户端负载均衡工具
+本模块引用了micor-service-entity
+本模块作为eureka客户端访问eureka注册中心上服务者提供的服务，消费的是部门服务者提供的服务（micor-service-provider-dept-8001，micor-service-provider-dept-8002，micor-service-provider-dept-8003）
+
+对于本模块添加了employee雇员的消费者
+集成了ribbon客户端负载均衡工具
+本模块作为eureka客户端访问eureka注册中心上服务者提供的服务，消费的是雇员服务者提供的服务（micor-service-provider-employee-8004、micor-service-provider-employee-8005、micor-service-provider-employee-8006）
