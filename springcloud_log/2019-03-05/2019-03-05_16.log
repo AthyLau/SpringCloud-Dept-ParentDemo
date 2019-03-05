@@ -1,0 +1,573 @@
+2019-03-05_16 16:00:01.246 INFO  [http-nio-9003-exec-4] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - 
+
+Proxy opening connection to: http://127.0.0.1:8001/hystrix.stream
+
+
+2019-03-05_16 16:00:01.246 INFO  [http-nio-9003-exec-3] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - 
+
+Proxy opening connection to: http://127.0.0.1:8001/hystrix.stream
+
+
+2019-03-05_16 16:00:02.258 INFO  [http-nio-9003-exec-10] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - 
+
+Proxy opening connection to: http://127.0.0.1:8001/hystrix.stream
+
+
+2019-03-05_16 16:00:02.259 INFO  [http-nio-9003-exec-5] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - 
+
+Proxy opening connection to: http://127.0.0.1:8001/hystrix.stream
+
+
+2019-03-05_16 16:00:02.322 WARN  [http-nio-9003-exec-5] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - Failed opening connection to http://127.0.0.1:8001/hystrix.stream : 503 : HTTP/1.1 503 
+2019-03-05_16 16:00:02.322 WARN  [http-nio-9003-exec-10] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - Failed opening connection to http://127.0.0.1:8001/hystrix.stream : 503 : HTTP/1.1 503 
+2019-03-05_16 16:00:02.757 INFO  [http-nio-9003-exec-2] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - 
+
+Proxy opening connection to: http://127.0.0.1:8001/hystrix.stream
+
+
+2019-03-05_16 16:00:02.758 INFO  [http-nio-9003-exec-8] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - 
+
+Proxy opening connection to: http://127.0.0.1:8001/hystrix.stream
+
+
+2019-03-05_16 16:00:02.767 WARN  [http-nio-9003-exec-2] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - Failed opening connection to http://127.0.0.1:8001/hystrix.stream : 503 : HTTP/1.1 503 
+2019-03-05_16 16:00:02.768 WARN  [http-nio-9003-exec-8] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - Failed opening connection to http://127.0.0.1:8001/hystrix.stream : 503 : HTTP/1.1 503 
+2019-03-05_16 16:00:03.300 INFO  [http-nio-9003-exec-6] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - 
+
+Proxy opening connection to: http://127.0.0.1:8001/hystrix.stream
+
+
+2019-03-05_16 16:00:03.305 INFO  [http-nio-9003-exec-1] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - 
+
+Proxy opening connection to: http://127.0.0.1:8001/hystrix.stream
+
+
+2019-03-05_16 16:00:04.102 INFO  [http-nio-9003-exec-10] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - 
+
+Proxy opening connection to: http://127.0.0.1:8001/hystrix.stream
+
+
+2019-03-05_16 16:00:04.104 INFO  [http-nio-9003-exec-9] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - 
+
+Proxy opening connection to: http://127.0.0.1:8001/hystrix.stream
+
+
+2019-03-05_16 16:00:04.714 INFO  [http-nio-9003-exec-2] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - 
+
+Proxy opening connection to: http://127.0.0.1:8001/hystrix.stream
+
+
+2019-03-05_16 16:00:04.714 INFO  [http-nio-9003-exec-4] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - 
+
+Proxy opening connection to: http://127.0.0.1:8001/hystrix.stream
+
+
+2019-03-05_16 16:00:04.722 WARN  [http-nio-9003-exec-2] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - Failed opening connection to http://127.0.0.1:8001/hystrix.stream : 503 : HTTP/1.1 503 
+2019-03-05_16 16:00:04.723 WARN  [http-nio-9003-exec-4] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - Failed opening connection to http://127.0.0.1:8001/hystrix.stream : 503 : HTTP/1.1 503 
+2019-03-05_16 16:00:05.490 INFO  [http-nio-9003-exec-5] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - 
+
+Proxy opening connection to: http://127.0.0.1:8001/hystrix.stream
+
+
+2019-03-05_16 16:00:05.491 INFO  [http-nio-9003-exec-7] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - 
+
+Proxy opening connection to: http://127.0.0.1:8001/hystrix.stream
+
+
+2019-03-05_16 16:00:05.501 WARN  [http-nio-9003-exec-7] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - Failed opening connection to http://127.0.0.1:8001/hystrix.stream : 503 : HTTP/1.1 503 
+2019-03-05_16 16:00:06.221 INFO  [http-nio-9003-exec-8] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - 
+
+Proxy opening connection to: http://127.0.0.1:8001/hystrix.stream
+
+
+2019-03-05_16 16:00:06.222 INFO  [http-nio-9003-exec-2] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - 
+
+Proxy opening connection to: http://127.0.0.1:8001/hystrix.stream
+
+
+2019-03-05_16 16:00:06.701 INFO  [http-nio-9003-exec-6] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - 
+
+Proxy opening connection to: http://127.0.0.1:8001/hystrix.stream
+
+
+2019-03-05_16 16:00:06.702 INFO  [http-nio-9003-exec-10] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - 
+
+Proxy opening connection to: http://127.0.0.1:8001/hystrix.stream
+
+
+2019-03-05_16 16:00:06.712 WARN  [http-nio-9003-exec-10] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - Failed opening connection to http://127.0.0.1:8001/hystrix.stream : 503 : HTTP/1.1 503 
+2019-03-05_16 16:00:07.201 INFO  [http-nio-9003-exec-3] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - 
+
+Proxy opening connection to: http://127.0.0.1:8001/hystrix.stream
+
+
+2019-03-05_16 16:00:07.209 WARN  [http-nio-9003-exec-3] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - Failed opening connection to http://127.0.0.1:8001/hystrix.stream : 503 : HTTP/1.1 503 
+2019-03-05_16 16:00:07.213 INFO  [http-nio-9003-exec-7] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - 
+
+Proxy opening connection to: http://127.0.0.1:8001/hystrix.stream
+
+
+2019-03-05_16 16:00:07.222 WARN  [http-nio-9003-exec-7] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - Failed opening connection to http://127.0.0.1:8001/hystrix.stream : 503 : HTTP/1.1 503 
+2019-03-05_16 16:00:07.728 INFO  [http-nio-9003-exec-4] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - 
+
+Proxy opening connection to: http://127.0.0.1:8001/hystrix.stream
+
+
+2019-03-05_16 16:00:07.729 INFO  [http-nio-9003-exec-10] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - 
+
+Proxy opening connection to: http://127.0.0.1:8001/hystrix.stream
+
+
+2019-03-05_16 16:00:07.736 WARN  [http-nio-9003-exec-10] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - Failed opening connection to http://127.0.0.1:8001/hystrix.stream : 503 : HTTP/1.1 503 
+2019-03-05_16 16:00:07.737 WARN  [http-nio-9003-exec-4] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - Failed opening connection to http://127.0.0.1:8001/hystrix.stream : 503 : HTTP/1.1 503 
+2019-03-05_16 16:00:08.868 INFO  [http-nio-9003-exec-9] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - 
+
+Proxy opening connection to: http://127.0.0.1:8001/hystrix.stream
+
+
+2019-03-05_16 16:00:08.868 INFO  [http-nio-9003-exec-3] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - 
+
+Proxy opening connection to: http://127.0.0.1:8001/hystrix.stream
+
+
+2019-03-05_16 16:00:13.394 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2019-03-05_16 16:00:19.943 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2019-03-05_16 16:00:26.610 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2019-03-05_16 16:01:04.145 INFO  [main] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@37f1104d: startup date [Tue Mar 05 16:01:04 CST 2019]; root of context hierarchy
+2019-03-05_16 16:01:04.444 INFO  [background-preinit] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05_16 16:01:04.938 INFO  [main] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-05_16 16:01:05.128 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$511f4685] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-05_16 16:01:06.154 INFO  [main] org.springframework.cloud.config.client.ConfigServicePropertySourceLocator - Fetching config from server at: http://localhost:8888
+2019-03-05_16 16:01:06.259 WARN  [main] org.springframework.cloud.config.client.ConfigServicePropertySourceLocator - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/dept-consumer/default": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)
+2019-03-05_16 16:01:06.260 INFO  [main] lcxy.springcloud.micorserviceconsumerdeptfeign9002.MicorServiceConsumerDeptFeign9002Application - No active profile set, falling back to default profiles: default
+2019-03-05_16 16:01:06.282 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@75459c75: startup date [Tue Mar 05 16:01:06 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@37f1104d
+2019-03-05_16 16:01:10.760 WARN  [main] org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[lcxy.springcloud.micorserviceconsumerdeptfeign9002]' package. Please check your configuration.
+2019-03-05_16 16:01:11.425 INFO  [main] org.springframework.cloud.context.scope.GenericScope - BeanFactory id=99cf71ee-03a5-31e3-b837-dd3ab0314943
+2019-03-05_16 16:01:11.497 INFO  [main] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-05_16 16:01:11.625 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lcxy.springcloud.micorserviceapi.service.DeptServiceINF' of type [org.springframework.cloud.netflix.feign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-05_16 16:01:11.627 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'lcxy.springcloud.micorserviceapi.service.EmployeeServiceINF' of type [org.springframework.cloud.netflix.feign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-05_16 16:01:12.019 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$35054388] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-05_16 16:01:12.194 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$511f4685] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-05_16 16:01:13.401 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2019-03-05_16 16:01:13.631 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9002 (http)
+2019-03-05_16 16:01:13.657 INFO  [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-05_16 16:01:13.659 INFO  [main] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.20
+2019-03-05_16 16:01:13.906 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-05_16 16:01:13.906 INFO  [localhost-startStop-1] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7624 ms
+2019-03-05_16 16:01:14.208 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-03-05_16 16:01:14.210 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-03-05_16 16:01:14.214 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-05_16 16:01:14.215 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-05_16 16:01:14.215 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-05_16 16:01:14.215 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-05_16 16:01:14.216 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2019-03-05_16 16:01:14.268 INFO  [main] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-03-05_16 16:01:15.000 INFO  [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-03-05_16 16:01:16.074 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05_16 16:01:16.395 INFO  [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05_16 16:01:16.502 INFO  [main] org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05_16 16:01:16.505 INFO  [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-03-05_16 16:01:16.507 INFO  [main] org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-03-05_16 16:01:16.528 INFO  [main] org.hibernate.spatial.integration.SpatialService - HHH80000001: hibernate-spatial integration enabled : true
+2019-03-05_16 16:01:16.690 INFO  [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05_16 16:01:17.020 INFO  [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05_16 16:01:18.369 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05_16 16:01:18.531 INFO  [main] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@79e2606f: startup date [Tue Mar 05 16:01:18 CST 2019]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@75459c75
+2019-03-05_16 16:01:18.586 INFO  [main] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-05_16 16:01:19.950 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 5ms
+2019-03-05_16 16:01:20.834 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/consumer/dept/discovery],methods=[GET]}" onto public lcxy.springcloud.micorserviceentity.commonbox.Result lcxy.springcloud.micorserviceconsumerdeptfeign9002.controller.DeptConsumerController.discovery()
+2019-03-05_16 16:01:20.835 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/consumer/dept/find/all],methods=[GET]}" onto public lcxy.springcloud.micorserviceentity.commonbox.Result lcxy.springcloud.micorserviceconsumerdeptfeign9002.controller.DeptConsumerController.findAll()
+2019-03-05_16 16:01:20.838 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/consumer/dept/del/by_id],methods=[POST]}" onto public lcxy.springcloud.micorserviceentity.commonbox.Result lcxy.springcloud.micorserviceconsumerdeptfeign9002.controller.DeptConsumerController.delById(lcxy.springcloud.micorserviceentity.domain.dto.IntDTO)
+2019-03-05_16 16:01:20.838 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/consumer/dept/add],methods=[POST]}" onto public lcxy.springcloud.micorserviceentity.commonbox.Result lcxy.springcloud.micorserviceconsumerdeptfeign9002.controller.DeptConsumerController.addDept(lcxy.springcloud.micorserviceentity.domain.dto.DeptDTO)
+2019-03-05_16 16:01:20.841 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-03-05_16 16:01:20.842 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-03-05_16 16:01:20.843 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-03-05_16 16:01:20.847 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05_16 16:01:20.847 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05_16 16:01:21.124 INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-03-05_16 16:01:21.783 WARN  [main] com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-03-05_16 16:01:21.783 INFO  [main] com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-05_16 16:01:21.815 WARN  [main] com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-03-05_16 16:01:21.815 INFO  [main] com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-05_16 16:01:22.792 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@75459c75: startup date [Tue Mar 05 16:01:06 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@37f1104d
+2019-03-05_16 16:01:23.395 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05_16 16:01:23.396 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05_16 16:01:23.586 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05_16 16:01:24.770 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-03-05_16 16:01:24.777 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2019-03-05_16 16:01:24.777 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-03-05_16 16:01:24.787 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-03-05_16 16:01:24.790 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-03-05_16 16:01:24.791 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-03-05_16 16:01:24.794 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2019-03-05_16 16:01:24.830 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2019-03-05_16 16:01:24.878 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=75459c75,type=ConfigurationPropertiesRebinder]
+2019-03-05_16 16:01:24.920 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2019-03-05_16 16:01:24.925 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2019-03-05_16 16:01:26.054 INFO  [main] org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 0
+2019-03-05_16 16:01:26.061 INFO  [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-03-05_16 16:01:26.114 INFO  [main] com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-03-05_16 16:01:26.454 INFO  [main] com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-03-05_16 16:01:26.455 INFO  [main] com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-03-05_16 16:01:26.594 INFO  [main] com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-03-05_16 16:01:26.595 INFO  [main] com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-03-05_16 16:01:26.617 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2019-03-05_16 16:01:26.899 INFO  [main] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-03-05_16 16:01:26.920 INFO  [main] com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-03-05_16 16:01:26.920 INFO  [main] com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-03-05_16 16:01:26.920 INFO  [main] com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-03-05_16 16:01:26.920 INFO  [main] com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-03-05_16 16:01:26.920 INFO  [main] com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-03-05_16 16:01:26.920 INFO  [main] com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-03-05_16 16:01:26.920 INFO  [main] com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-03-05_16 16:01:27.061 INFO  [main] com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-03-05_16 16:01:27.063 INFO  [main] com.netflix.discovery.DiscoveryClient - Not registering with Eureka server per configuration
+2019-03-05_16 16:01:27.065 INFO  [main] com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1551772887065 with initial instances count: 1
+2019-03-05_16 16:01:27.095 INFO  [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Registering application dept-consumer with eureka with status UP
+2019-03-05_16 16:01:27.097 INFO  [main] org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2019-03-05_16 16:01:27.097 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-03-05_16 16:01:27.112 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-03-05_16 16:01:27.208 INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-03-05_16 16:01:27.770 INFO  [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9002"]
+2019-03-05_16 16:01:28.159 INFO  [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9002"]
+2019-03-05_16 16:01:28.231 INFO  [main] org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-05_16 16:01:28.334 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9002 (http)
+2019-03-05_16 16:01:28.353 INFO  [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration - Updating port to 9002
+2019-03-05_16 16:01:28.377 INFO  [main] lcxy.springcloud.micorserviceconsumerdeptfeign9002.MicorServiceConsumerDeptFeign9002Application - Started MicorServiceConsumerDeptFeign9002Application in 25.78 seconds (JVM running for 27.409)
+2019-03-05_16 16:01:54.211 INFO  [http-nio-9002-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-03-05_16 16:01:54.213 INFO  [http-nio-9002-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-03-05_16 16:01:54.281 INFO  [http-nio-9002-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 67 ms
+2019-03-05_16 16:02:04.819 INFO  [hystrix-DEPT-PROVIDER-1] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@f205793: startup date [Tue Mar 05 16:02:04 CST 2019]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@75459c75
+2019-03-05_16 16:02:04.913 INFO  [hystrix-DEPT-PROVIDER-1] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-05_16 16:02:05.200 INFO  [hystrix-DEPT-PROVIDER-1] com.netflix.config.ChainedDynamicProperty - Flipping property: DEPT-PROVIDER.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-03-05_16 16:02:05.239 INFO  [hystrix-DEPT-PROVIDER-1] com.netflix.util.concurrent.ShutdownEnabledTimer - Shutdown hook installed for: NFLoadBalancer-PingTimer-DEPT-PROVIDER
+2019-03-05_16 16:02:05.247 INFO  [hystrix-DEPT-PROVIDER-1] com.netflix.loadbalancer.BaseLoadBalancer - Client: DEPT-PROVIDER instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=DEPT-PROVIDER,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2019-03-05_16 16:02:05.256 INFO  [hystrix-DEPT-PROVIDER-1] com.netflix.loadbalancer.DynamicServerListLoadBalancer - Using serverListUpdater PollingServerListUpdater
+2019-03-05_16 16:02:06.120 INFO  [hystrix-DEPT-PROVIDER-1] com.netflix.config.ChainedDynamicProperty - Flipping property: DEPT-PROVIDER.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-03-05_16 16:02:06.123 INFO  [hystrix-DEPT-PROVIDER-1] com.netflix.loadbalancer.DynamicServerListLoadBalancer - DynamicServerListLoadBalancer for client DEPT-PROVIDER initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=DEPT-PROVIDER,current list of Servers=[192.168.1.236:8001],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.1.236:8001;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@4f6fb464
+2019-03-05_16 16:02:06.264 INFO  [PollingServerListUpdater-0] com.netflix.config.ChainedDynamicProperty - Flipping property: DEPT-PROVIDER.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-03-05_16 16:02:13.408 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 5ms
+2019-03-05_16 16:02:19.958 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 5ms
+2019-03-05_16 16:02:26.623 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2019-03-05_16 16:02:31.766 INFO  [http-nio-9003-exec-2] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - 
+
+Proxy opening connection to: http://127.0.0.1:8001/hystrix.stream
+
+
+2019-03-05_16 16:02:31.766 INFO  [http-nio-9003-exec-7] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - 
+
+Proxy opening connection to: http://127.0.0.1:8001/hystrix.stream
+
+
+2019-03-05_16 16:02:43.723 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-03-05_16 16:02:53.261 INFO  [http-nio-9003-exec-10] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - 
+
+Proxy opening connection to: http://127.0.0.1:8001/hystrix.stream
+
+
+2019-03-05_16 16:02:53.263 INFO  [http-nio-9003-exec-4] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - 
+
+Proxy opening connection to: http://127.0.0.1:8001/hystrix.stream
+
+
+2019-03-05_16 16:03:13.414 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2019-03-05_16 16:03:19.964 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2019-03-05_16 16:03:26.629 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2019-03-05_16 16:04:13.419 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2019-03-05_16 16:04:19.969 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2019-03-05_16 16:04:26.633 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+2019-03-05_16 16:05:13.423 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+2019-03-05_16 16:05:19.974 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2019-03-05_16 16:05:26.639 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2019-03-05_16 16:06:13.428 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+2019-03-05_16 16:06:19.979 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+2019-03-05_16 16:06:26.645 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2019-03-05_16 16:06:26.936 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-03-05_16 16:07:13.434 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+2019-03-05_16 16:07:19.989 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2019-03-05_16 16:07:26.654 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-03-05_16 16:07:43.749 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-03-05_16 16:08:13.446 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2019-03-05_16 16:08:20.002 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 5ms
+2019-03-05_16 16:08:26.661 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2019-03-05_16 16:09:13.452 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2019-03-05_16 16:09:20.007 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2019-03-05_16 16:09:26.667 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2019-03-05_16 16:10:13.458 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2019-03-05_16 16:10:20.014 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 5ms
+2019-03-05_16 16:10:26.674 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2019-03-05_16 16:11:13.464 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2019-03-05_16 16:11:20.018 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2019-03-05_16 16:11:26.679 INFO  [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2019-03-05_16 16:11:26.960 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-03-05_16 16:11:59.484 INFO  [Thread-74] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@681a8b4e: startup date [Tue Mar 05 15:56:46 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2f54a33d
+2019-03-05_16 16:11:59.513 INFO  [Thread-74] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Unregistering application unknown with eureka with status DOWN
+2019-03-05_16 16:11:59.525 INFO  [Thread-57] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@681a8b4e: startup date [Tue Mar 05 15:57:02 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2f54a33d
+2019-03-05_16 16:11:59.528 INFO  [Thread-74] com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-03-05_16 16:11:59.530 INFO  [Thread-74] com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-03-05_16 16:11:59.539 INFO  [Thread-57] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Unregistering application unknown with eureka with status DOWN
+2019-03-05_16 16:11:59.558 INFO  [Thread-74] org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 0
+2019-03-05_16 16:11:59.558 INFO  [Thread-57] com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-03-05_16 16:11:59.560 INFO  [Thread-57] com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-03-05_16 16:11:59.570 INFO  [Thread-54] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@681a8b4e: startup date [Tue Mar 05 15:57:10 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2f54a33d
+2019-03-05_16 16:11:59.578 INFO  [Thread-54] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Unregistering application unknown with eureka with status DOWN
+2019-03-05_16 16:11:59.581 INFO  [Thread-57] org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 0
+2019-03-05_16 16:11:59.582 INFO  [Thread-54] com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-03-05_16 16:11:59.582 INFO  [Thread-54] com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-03-05_16 16:11:59.596 INFO  [Thread-74] com.netflix.eureka.DefaultEurekaServerContext - Shutting down ...
+2019-03-05_16 16:11:59.599 INFO  [Thread-54] org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 0
+2019-03-05_16 16:11:59.607 INFO  [Thread-54] com.netflix.eureka.DefaultEurekaServerContext - Shutting down ...
+2019-03-05_16 16:11:59.613 INFO  [Thread-57] com.netflix.eureka.DefaultEurekaServerContext - Shutting down ...
+2019-03-05_16 16:11:59.616 INFO  [Thread-54] com.netflix.eureka.DefaultEurekaServerContext - Shut down
+2019-03-05_16 16:11:59.618 INFO  [Thread-74] com.netflix.eureka.DefaultEurekaServerContext - Shut down
+2019-03-05_16 16:11:59.626 INFO  [Thread-54] org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-03-05_16 16:11:59.628 INFO  [Thread-54] org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter - Unregistering JMX-exposed beans
+2019-03-05_16 16:11:59.630 INFO  [Thread-54] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-03-05_16 16:11:59.632 INFO  [Thread-54] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-03-05_16 16:11:59.641 INFO  [Thread-57] com.netflix.eureka.DefaultEurekaServerContext - Shut down
+2019-03-05_16 16:11:59.645 INFO  [Thread-54] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05_16 16:11:59.648 INFO  [Thread-74] org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-03-05_16 16:11:59.644 INFO  [Thread-46] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2e11485: startup date [Tue Mar 05 15:57:28 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@78ffe6dc
+2019-03-05_16 16:11:59.656 INFO  [Thread-46] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Unregistering application DEPT-PROVIDER with eureka with status DOWN
+2019-03-05_16 16:11:59.656 WARN  [Thread-46] com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1551773519656, current=DOWN, previous=UP]
+2019-03-05_16 16:11:59.657 INFO  [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient - DiscoveryClient_DEPT-PROVIDER/dept-provider-hystrix-8001: registering service...
+2019-03-05_16 16:11:59.658 INFO  [Thread-46] com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-03-05_16 16:11:59.659 INFO  [Thread-46] com.netflix.discovery.DiscoveryClient - Unregistering ...
+2019-03-05_16 16:11:59.671 INFO  [http-nio-7003-exec-2] com.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance DEPT-PROVIDER/dept-provider-hystrix-8001 with status DOWN (replication=false)
+2019-03-05_16 16:11:59.672 INFO  [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient - DiscoveryClient_DEPT-PROVIDER/dept-provider-hystrix-8001 - registration status: 204
+2019-03-05_16 16:11:59.673 INFO  [http-nio-7003-exec-1] com.netflix.eureka.registry.AbstractInstanceRegistry - Cancelled instance DEPT-PROVIDER/dept-provider-hystrix-8001 (replication=false)
+2019-03-05_16 16:11:59.674 INFO  [Thread-46] com.netflix.discovery.DiscoveryClient - DiscoveryClient_DEPT-PROVIDER/dept-provider-hystrix-8001 - deregister  status: 200
+2019-03-05_16 16:11:59.677 INFO  [Thread-74] org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter - Unregistering JMX-exposed beans
+2019-03-05_16 16:11:59.682 INFO  [Thread-46] com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-03-05_16 16:11:59.689 INFO  [Thread-54] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-03-05_16 16:11:59.690 INFO  [Thread-74] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-03-05_16 16:11:59.687 INFO  [Thread-57] org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-03-05_16 16:11:59.697 INFO  [Thread-74] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-03-05_16 16:11:59.699 INFO  [Thread-46] org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+2019-03-05_16 16:11:59.702 INFO  [Thread-46] org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 0
+2019-03-05_16 16:11:59.702 INFO  [Thread-57] org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter - Unregistering JMX-exposed beans
+2019-03-05_16 16:11:59.708 INFO  [Thread-46] org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-03-05_16 16:11:59.708 INFO  [Thread-46] org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter - Unregistering JMX-exposed beans
+2019-03-05_16 16:11:59.708 INFO  [Thread-57] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-03-05_16 16:11:59.709 INFO  [Thread-57] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-03-05_16 16:11:59.709 INFO  [Thread-46] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-03-05_16 16:11:59.710 INFO  [Thread-46] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-03-05_16 16:11:59.733 INFO  [Thread-46] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05_16 16:11:59.738 INFO  [Thread-53] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@75459c75: startup date [Tue Mar 05 16:01:06 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@37f1104d
+2019-03-05_16 16:11:59.739 INFO  [Thread-60] com.netflix.loadbalancer.PollingServerListUpdater - Shutting down the Executor Pool for PollingServerListUpdater
+2019-03-05_16 16:11:59.745 INFO  [Thread-53] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Unregistering application dept-consumer with eureka with status DOWN
+2019-03-05_16 16:11:59.748 INFO  [Thread-53] com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-03-05_16 16:11:59.751 INFO  [Thread-46] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-03-05_16 16:11:59.757 INFO  [Thread-74] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05_16 16:11:59.771 INFO  [Thread-53] com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-03-05_16 16:11:59.772 INFO  [Thread-57] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05_16 16:11:59.783 INFO  [Thread-53] org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+2019-03-05_16 16:11:59.785 INFO  [Thread-53] org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 0
+2019-03-05_16 16:11:59.787 INFO  [Thread-53] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-03-05_16 16:11:59.788 INFO  [Thread-53] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-03-05_16 16:11:59.796 INFO  [Thread-53] org.springframework.context.annotation.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@f205793: startup date [Tue Mar 05 16:02:04 CST 2019]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@75459c75
+2019-03-05_16 16:11:59.806 WARN  [Thread-53] org.springframework.context.annotation.AnnotationConfigApplicationContext - Exception thrown from ApplicationListener handling ContextClosedEvent
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:216)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1078)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:283)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:253)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:177)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:140)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:399)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:991)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:958)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:76)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:272)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.destroySingletons(FactoryBeanRegistrySupport.java:230)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1006)
+	at org.springframework.context.support.AbstractApplicationContext$2.run(AbstractApplicationContext.java:929)
+2019-03-05_16 16:11:59.809 INFO  [Thread-53] com.netflix.util.concurrent.ShutdownEnabledTimer - Shutdown hook removed for: NFLoadBalancer-PingTimer-DEPT-PROVIDER
+2019-03-05_16 16:11:59.810 INFO  [Thread-53] com.netflix.util.concurrent.ShutdownEnabledTimer - Exception caught (might be ok if at shutdown)
+java.lang.IllegalStateException: Shutdown in progress
+	at java.lang.ApplicationShutdownHooks.remove(ApplicationShutdownHooks.java:82)
+	at java.lang.Runtime.removeShutdownHook(Runtime.java:239)
+	at com.netflix.util.concurrent.ShutdownEnabledTimer.cancel(ShutdownEnabledTimer.java:70)
+	at com.netflix.loadbalancer.BaseLoadBalancer.cancelPingTask(BaseLoadBalancer.java:613)
+	at com.netflix.loadbalancer.BaseLoadBalancer.shutdown(BaseLoadBalancer.java:864)
+	at com.netflix.loadbalancer.DynamicServerListLoadBalancer.shutdown(DynamicServerListLoadBalancer.java:277)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:364)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:287)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.destroySingletons(FactoryBeanRegistrySupport.java:230)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1006)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:958)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:76)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:272)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.destroySingletons(FactoryBeanRegistrySupport.java:230)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1006)
+	at org.springframework.context.support.AbstractApplicationContext$2.run(AbstractApplicationContext.java:929)
+2019-03-05_16 16:11:59.812 INFO  [Thread-33] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2bb7bd00: startup date [Tue Mar 05 15:57:56 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5f16132a
+2019-03-05_16 16:11:59.839 INFO  [Thread-53] org.springframework.context.annotation.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@79e2606f: startup date [Tue Mar 05 16:01:18 CST 2019]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@75459c75
+2019-03-05_16 16:11:59.846 WARN  [Thread-53] org.springframework.context.annotation.AnnotationConfigApplicationContext - Exception thrown from ApplicationListener handling ContextClosedEvent
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:216)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1078)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:283)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:253)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:177)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:140)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:399)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:991)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:958)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:76)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:272)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.destroySingletons(FactoryBeanRegistrySupport.java:230)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1006)
+	at org.springframework.context.support.AbstractApplicationContext$2.run(AbstractApplicationContext.java:929)
+2019-03-05_16 16:11:59.848 INFO  [Thread-53] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05_16 16:11:59.875 INFO  [Thread-33] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-03-05_16 16:11:59.875 INFO  [Thread-53] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-03-05_16 16:11:59.879 INFO  [Thread-33] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-03-05_16 16:11:59.904 INFO  [Thread-33] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05_16 16:11:59.905 INFO  [Thread-57] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-03-05_16 16:11:59.947 INFO  [Thread-33] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-03-05_16 16:11:59.957 INFO  [Thread-74] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-03-05_16 16:12:02.048 ERROR [http-nio-9003-exec-10] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - Error proxying request: http://127.0.0.1:8001/hystrix.stream
+org.apache.http.ConnectionClosedException: Premature end of chunk coded message body: closing chunk expected
+	at org.apache.http.impl.io.ChunkedInputStream.getChunkSize(ChunkedInputStream.java:266)
+	at org.apache.http.impl.io.ChunkedInputStream.nextChunk(ChunkedInputStream.java:225)
+	at org.apache.http.impl.io.ChunkedInputStream.read(ChunkedInputStream.java:148)
+	at org.apache.http.conn.EofSensorInputStream.read(EofSensorInputStream.java:118)
+	at org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet.doGet(HystrixDashboardConfiguration.java:188)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-05_16 16:12:02.048 ERROR [http-nio-9003-exec-4] org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet - Error proxying request: http://127.0.0.1:8001/hystrix.stream
+org.apache.http.ConnectionClosedException: Premature end of chunk coded message body: closing chunk expected
+	at org.apache.http.impl.io.ChunkedInputStream.getChunkSize(ChunkedInputStream.java:266)
+	at org.apache.http.impl.io.ChunkedInputStream.nextChunk(ChunkedInputStream.java:225)
+	at org.apache.http.impl.io.ChunkedInputStream.read(ChunkedInputStream.java:148)
+	at org.apache.http.conn.EofSensorInputStream.read(EofSensorInputStream.java:118)
+	at org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfiguration$ProxyStreamServlet.doGet(HystrixDashboardConfiguration.java:188)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)

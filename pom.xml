@@ -16,6 +16,7 @@
         <module>micor-service-entity</module>
         <module>micor-service-consumer-dept-9001</module>
         <module>micor-service-consumer-dept-feign-9002</module>
+        <module>micor-service-consumer-dept-feign-hystrix-dashboard-9003</module>
         <module>micor-service-eureka-7001</module>
         <module>micor-service-eureka-7002</module>
         <module>micor-service-eureka-7003</module>

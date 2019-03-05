@@ -21,10 +21,10 @@
 
 	<dependencies>
 		<!--&lt;!&ndash;actuator&ndash;&gt;-->
-		<!--<dependency>-->
-		<!--<groupId>org.springframework.boot</groupId>-->
-		<!--<artifactId>spring-boot-starter-actuator</artifactId>-->
-		<!--</dependency>-->
+		<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
 		<!--微服务提供者也就是eureka客户端注册到服务中心需要的pom-->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>

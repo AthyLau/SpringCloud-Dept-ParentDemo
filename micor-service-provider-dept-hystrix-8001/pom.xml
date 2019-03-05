@@ -20,11 +20,11 @@
 	</properties>
 
 	<dependencies>
-		<!--&lt;!&ndash;actuator&ndash;&gt;-->
-		<!--<dependency>-->
-		<!--<groupId>org.springframework.boot</groupId>-->
-		<!--<artifactId>spring-boot-starter-actuator</artifactId>-->
-		<!--</dependency>-->
+		<!--actuator 加了这个才能被hystrix dashboard监控-->
+		<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
 		<!--hystrix-->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
