@@ -26,6 +26,7 @@
         <module>micor-service-provider-employee-8006</module>
         <module>micor-service-consumer-ribbon-8081</module>
         <module>micor-service-consumer-feign-8082</module>
+        <module>micor-service-zuul-gateway-9527</module>
     </modules>
 
     <parent>
